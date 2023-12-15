@@ -4,12 +4,15 @@ import styled from "@emotion/styled"
 
 const Logo = () => {
   return (
-    <StyledWrapper href="/" aria-label={CONFIG.blog.title}>
-      {CONFIG.blog.title}
-    </StyledWrapper>
+      <StyledWrapper href="/" aria-label={CONFIG.blog.title}>
+        {CONFIG.blog.title}
+      </StyledWrapper>
   )
 }
 
 export default Logo
 
-const StyledWrapper = styled(Link)``
+const StyledWrapper = styled(Link)`
+  font-size: 1.25rem;
+  font-weight: bold;
+`
