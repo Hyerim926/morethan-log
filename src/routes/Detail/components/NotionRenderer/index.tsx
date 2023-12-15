@@ -47,6 +47,7 @@ const Code = dynamic(() =>
       import("prismjs/components/prism-python.js"),
       import("prismjs/components/prism-reason.js"),
       import("prismjs/components/prism-rust.js"),
+      import("prismjs/components/prism-css.js"),
       import("prismjs/components/prism-sass.js"),
       import("prismjs/components/prism-scss.js"),
       import("prismjs/components/prism-solidity.js"),
