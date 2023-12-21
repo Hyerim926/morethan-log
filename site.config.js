@@ -28,8 +28,7 @@ const CONFIG = {
 
   // notion configuration (required)
   notionConfig: {
-    pageId: process.env.NOTION_PAGE_ID || '79d76ca7cc2e482e8620ebea4a3bfdd1',
-    podId: process.env.NOTION_POD_ID || '48d9bf1cec71412bbf35e19c9a08b9de'
+    pageId: process.env.NOTION_PAGE_ID || '79d76ca7cc2e482e8620ebea4a3bfdd1|48d9bf1cec71412bbf35e19c9a08b9de',
   },
 
   // plugin configuration (optional)
